@@ -1,7 +1,28 @@
 aid: denki
 name: Denki
-description: Denki is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Denki is a full-stack AI financial audit firm that automates internal audit
+  work — planning, control testing, evidence collection, walkthrough interviews,
+  and documentation — so teams can comply with financial regulations such as SOX
+  404 and BSA/AML. Its Tracer agent links general ledger, sub-ledgers, ERP, and
+  payments data into a single audit trail, detecting anomalies early and
+  producing ready-to-share audit packs. Denki works alongside existing systems
+  such as AuditBoard, Workiva, and ERPs, and is built for audit teams at pre-IPO
+  and publicly listed companies. Founded in 2025 by brothers Felipe and David
+  Jin Li, Denki is a Y Combinator (F25) company that raised $4.1M led by Base10
+  Partners and Shine Capital.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://denki.ai/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/denki/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Financial Audit
+- Compliance
+- Artificial Intelligence
+- Audit Automation
+- GRC
+- Fintech
+- SOX
 apis: []
+common:
+- type: DomainSecurity
+  url: security/denki-domain-security.yml
+- type: Website
+  url: https://denki.ai
+- type: Blog
+  url: https://denki.ai/blog
+- type: Pricing
+  url: https://denki.ai/pricing
+- type: Support
+  url: https://denki.ai/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
