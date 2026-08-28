@@ -11,6 +11,17 @@ description: >-
   and publicly listed companies. Founded in 2025 by brothers Felipe and David
   Jin Li, Denki is a Y Combinator (F25) company that raised $4.1M led by Base10
   Partners and Shine Capital.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
