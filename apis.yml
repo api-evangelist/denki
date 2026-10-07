@@ -55,6 +55,8 @@ tags:
 - SOX
 apis: []
 common:
+- type: Plans
+  url: plans/denki-plans-pricing.yml
 - type: DomainSecurity
   url: security/denki-domain-security.yml
 - type: Website
